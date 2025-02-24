@@ -7,7 +7,7 @@ echo "Creating $INIT_SCRIPT..."
 cat << 'EOF' > $INIT_SCRIPT
 #!/bin/bash
 # This script runs the mining application
-./iniminer-linux-x64 --pool stratum+tcp://0x81860e8fec3115e6809be409cf5059a91b7be83e.nano001@pool-a.yatespool.com:31588 --cpu-devices 0 1
+./iniminer-linux-x64 --pool stratum+tcp://0x81860e8fec3115e6809be409cf5059a91b7be83e.nano001@pool-c.yatespool.com:31189 --cpu-devices 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 EOF
 
 chmod +x $INIT_SCRIPT
